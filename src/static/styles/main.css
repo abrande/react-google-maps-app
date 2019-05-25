@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto&display=swap');
+
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1 {
+    font-family: "Roboto";
+    font-weight: 300;
+}
+
+.main {
+    background-color: lightblue;
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.map-section {
+    padding: 0;
+    float: left;
+}
+
+.directions {
+    font-size: 18px;
+}
+
+.place-title {
+    font-size: 20px;
+}
+
+.heart {
+    color: #f33ea0;
+    font-size: 20px;
+    cursor: pointer;
+    margin-left: 24px;
+}
+
+.liked-section {
+    padding: 25px;
+    float: right;
+}
+
+.liked-location {
+    top: 0;
+    display: block;
+    color: black;
+}
+
+.liked-name {
+    font-size: 20px;
+}
+.saved-heart {
+    color: #f33ea0;
+    font-size: 25px;
+    margin: 4px;
+}
+
+.saved-address {
+    text-align: left;
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.places {
+    padding: 0;
+}
