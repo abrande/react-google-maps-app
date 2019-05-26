@@ -20,7 +20,6 @@ h1 {
     padding: 0 !important;
 }
 
-
 .map-section {
     padding: 0;
     float: left;
@@ -55,6 +54,7 @@ h1 {
 .liked-name {
     font-size: 20px;
 }
+
 .saved-heart {
     color: #f33ea0;
     font-size: 25px;
