@@ -1,16 +1,16 @@
-/*global google*/
 import React from "react";
 import PropTypes from "prop-types";
 import {SearchBox} from "react-google-maps/lib/components/places/SearchBox";
+const google = window.google;
 
-const MapSearchBox = (props) => {
-    return (
-        <div>
+class MapSearchBox extends React.Component {
+    render() {
+        return (
             <SearchBox
-                ref={props.onSearchBoxMounted}
-                bounds={props.bounds}
+                ref={this.props.onSearchBoxMounted}
+                bounds={this.props.bounds}
                 controlPosition={google.maps.ControlPosition.TOP_LEFT}
-                onPlacesChanged={props.onPlacesChanged}
+                onPlacesChanged={this.props.onPlacesChanged}
             >
                 <input
                     type="text"
@@ -30,9 +30,9 @@ const MapSearchBox = (props) => {
                     }}
                 />
             </SearchBox>
-        </div>
-    )
-};
+        )
+    }
+}
 
 MapSearchBox.propTypes = {
     bounds: PropTypes.object,

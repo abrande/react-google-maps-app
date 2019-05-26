@@ -1,7 +1,8 @@
 import React from "react";
-import MapSearchBox from "./SearchBox";
+import MapSearchBox from "./SearchBox"
 import Map from "./Map";
 import _ from "lodash";
+const google = window.google;
 
 class MapContainer extends React.Component {
     constructor(props) {

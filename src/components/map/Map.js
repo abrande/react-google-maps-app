@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import {DirectionsRenderer, GoogleMap, withGoogleMap, withScriptjs, TrafficLayer} from "react-google-maps";
 import MarkerWithInfoWindow from "./MarkerWithInfoWindow";
 const {MarkerWithLabel} = require("react-google-maps/lib/components/addons/MarkerWithLabel");
-
+const google = window.google;
 
 const Map = withScriptjs(withGoogleMap((props) => {
     const markers = props.markers.map((markers) => {
